@@ -18,6 +18,6 @@ angular.module('techNodeApp').config(['$routeProvider', '$locationProvider', fun
     controller: 'LoginCtrl'
   }).
   otherwise({
-    redirectTo: '/login'
+    redirectTo: '/index'
   })
 }])
